@@ -72,8 +72,8 @@ print('concatene los df')
 
 # ACCES GOOGLE SHEET PARA TODOS LOS PAISES
 
-gc = gspread.service_account(filename='tdi-4-316623-875c6027a34a.json')
-sh = gc.open_by_key('10h2pJEPPO5gXjVb2I4u-Hij5I07hUPpfbbKpDt4vruI')
+gc = gspread.service_account(filename='')
+sh = gc.open_by_key('')
 worksheet = sh.get_worksheet(0)
 #worksheet1 = sh.get_worksheet(1)
 #worksheet2 = sh.get_worksheet(2)
@@ -81,7 +81,6 @@ worksheet = sh.get_worksheet(0)
 #worksheet4 = sh.get_worksheet(4)
 #worksheet5 = sh.get_worksheet(5)
 
-# 1EA5kpoUNukf4hw5smzDlMjWyMv-mh0LtyDEdyI9WIu4
 
 # APPEND DATA TO SHEET DE TODOS LOS PAISES
 
